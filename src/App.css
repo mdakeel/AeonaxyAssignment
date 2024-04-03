@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 body{
-    font-family: 'Jost', sans-serif;
+    font-family: "Gilroy", sans-serif;
 }
 
 nav{
     z-index: 10001 !important;
+}
+
+.menu{
+    @apply flex flex-row  items-center xl:text-[15px] md:text-[14px] text-[14px] font-normal md:mt-0 mt-2 space-x-1 text-secondary hover:text-primary cursor-pointer;
 }
 
 .gradientBg{
