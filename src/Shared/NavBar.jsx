@@ -20,7 +20,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-white 2xl:px-[150px]   mx-auto fixed top-0 right-0 left-0">
+      <nav className="bg-white 2xl:px-[150px] z-20 mx-auto fixed top-0 right-0 left-0  ">
       {/* <div className='text-lg  mx-auto  items-center'> */}
   
         <div className="flex md:space-x-14 p-8 space-x-10 justify-between items-center">
@@ -86,11 +86,11 @@ export const NavBar = () => {
 
       {/* navitem for mobile devices start */}
       <div
-        className={`space-y-4 px-4 pt-24 pb-5 border-b   ${
+        className={`space-y-4 z-10 pt-24  border-b   ${
           isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"
         }`}
       >
-        <div className="flex flex-row  px-10  space-x-10">
+        <div className="  block flex flex-row bg-[#fff] px-10 pb-4  space-x-10">
           <div className="md:flex ">
             <div className="menu">
               <span>Developers</span>

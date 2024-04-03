@@ -4,22 +4,11 @@ body{
     font-family: "Gilroy", sans-serif;
 }
 
-nav{
-    z-index: 10001 !important;
-}
-
 .menu{
     @apply flex flex-row  items-center xl:text-[15px] md:text-[14px] text-[14px] font-normal md:mt-0 mt-2 space-x-1 text-secondary hover:text-primary cursor-pointer;
 }
 
-.gradientBg{
-  background: linear-gradient(171.61deg, #EE9AE5 0.53%, #5961F9 38.96%);
-}
-.gradientBg2{
-    background: linear-gradient(90deg, #EE9AE5 0%, #5961F9 102.13%);
-
+.event{
+    @apply flex flex-row space-x-2 items-center text-primary hover:text-blue-400 cursor-pointer;
 }
 
-.btnPrimary{
-    @apply py-3 px-8 bg-secondary font-semibold text-white rounded hover:bg-primary transition-all duration-300;
-}
