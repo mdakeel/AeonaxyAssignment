@@ -31,7 +31,7 @@ export const Home = () => {
                 <input
                   type="search"
                   id="search"
-                  className="xl:w-[600px] md:w-[500px] p-6 sm:w-[400px] w-[350px] h-[60px] ps-14 text-sm border-[#8d9399] border focus:border-none rounded-full shadow-md "
+                  className="xl:w-[600px] outline-none md:w-[500px] p-6 sm:w-[400px] w-[350px] h-[60px] ps-14 text-sm border-[#8d9399] border focus:shadow-none transition-all duration-300 rounded-full shadow-md "
                   placeholder="Search "
                   required
                 />
@@ -70,7 +70,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div><SiChatwoot className="fixed w-10 h-10 bottom-10 right-10 cursor-pointer  text-primary" /></div>
+      <div><SiChatwoot className="fixed w-10 h-10 bottom-6 right-6 cursor-pointer  text-primary" /></div>
     </div>
   );
 };
