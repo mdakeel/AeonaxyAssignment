@@ -13,8 +13,8 @@ import { FiYoutube } from "react-icons/fi";
 
 export const Footer = () => {
   return (
-    <div className=' 2xl:px-[150px] w-full max-w-s  mx-auto '>
-        <div className='mt-6 p-6  items-center justify-center'>
+    <div className='bg-white 2xl:px-[150px]   mx-auto  flex md:items-center md:justify-center'>
+        <div className='mt-6  p-6 '>
             <div className='flex xl:flex-row  flex-col items-center justify-center '>
             <div className='xl:w-1/4 w-full p-4  space-y-5'>
                 <h1 className='xl:text-[40px] md:text-[30px] text-[25px] font-extrabold text-secondary'>Easy <span className='text-primary'>ahead</span></h1>

@@ -13,7 +13,7 @@ import { SiChatwoot } from "react-icons/si";
 
 export const Home = () => {
   return (
-    <div className="bg-white 2xl:px-[150px] w-full max-w-s  mx-auto  flex items-center justify-center">
+    <div className="bg-white 2xl:px-[150px]   mx-auto  flex md:items-center md:justify-center">
       <div className="p-10 mt-[100px]">
         <div className="space-y-4">
           <div>
